@@ -32,12 +32,21 @@ body, html {
 .text1 {
     font-family: 'Nexa', sans-serif; /* Use Nexa Bold, and fall back to a generic sans-serif font */
     color: #ccced0;
-    font-size: 24px;
+   
 }
-
+.text3 {
+    font-family: 'Nexa', sans-serif; /* Use Nexa Bold, and fall back to a generic sans-serif font */
+    color: #CA4E93;
+    
+}
+.text2 {
+    font-family: 'Montserrat ExtraBold', sans-serif; /* Use Nexa Bold, and fall back to a generic sans-serif font */
+    color: #fff;
+    
+}
 /* Apply the animation to the text */
 .animated-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat ExtraBold', sans-serif;
     font-size: 70px;
     font-weight: 1000;
     background-image: linear-gradient(45deg, #3498db, #9b59b6);
@@ -119,12 +128,15 @@ body, html {
 }
 
 /* Default styles for larger screens */
-.text-2 {
+.text2 {
     font-size: 60px;
 }
 
 .text1 {
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+.text3 {
+    font-size: 24px;
 }
 
 /* Media query for smaller screens */
@@ -134,8 +146,11 @@ body, html {
     }
 
     .text1 {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 18px; /* Adjust font size for smaller screens */
     }
+}
+.text3 {
+    font-size: 18px;
 }
 
 /* Media query for even smaller screens */
@@ -147,8 +162,11 @@ body, html {
     .text1 {
         font-size: 14px; /* Adjust font size for even smaller screens */
     }
-}
 
+.text3 {
+    font-size: 14px;
+}
+}
 @media (max-width: 768px) {
   .center-right-image {
     display: none;
@@ -380,17 +398,10 @@ section .title::after{
 .home .max-width .row{
   margin-right: 0;
 }
-.home .home-content .text-1{
-    font-size: 27px;
-}
-.home .home-content {
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: -3px;
-}
-.home .home-content .text-3{
-    font-size: 15px;
-    margin: 5px 0;
+
+
+
+
 }
 .home .home-content .text-3 span{
     color: crimson;
@@ -418,9 +429,7 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
-    content: "who i am";
-}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -857,16 +866,7 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-    .home .home-content {
-        font-size: 70px;
-    }
-    .home .home-content .text-3{
-        font-size: 35px;
-    }
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
+   
     .max-width{
         max-width: 930px;
     }
@@ -899,7 +899,7 @@ footer span a:hover{
     .home .home-content {
         font-size: 60px;
     }
-    .home .home-content .text-3{
+    .home .home-content {
         font-size: 32px;
     }
     .home .home-content a{
