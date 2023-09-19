@@ -44,6 +44,12 @@ body, html {
     color: #fff;
     
 }
+.custom-text2 {
+    font-size: 20px;
+    text-align: left;
+    color: #fff; /* Text color for the custom text */
+   padding-left: 20px;
+}
 /* Apply the animation to the text */
 .animated-text {
     font-family: 'Montserrat ExtraBold', sans-serif;
@@ -281,12 +287,7 @@ section .title::after{
    padding-left: 0px;
     font-family: 'Nexa', sans-serif
 }
-.custom-text2 {
-    font-size: 20px;
-    text-align: left;
-    color: #fff; /* Text color for the custom text */
-   padding-left: 20px;
-}
+
 .custom-trust {
     font-size: 35px;
     text-align: center;
