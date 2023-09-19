@@ -150,7 +150,7 @@ body, html {
     }
 }
 .text3 {
-    font-size: 20px;
+    font-size: 2px;
 }
 
 /* Media query for even smaller screens */
@@ -274,11 +274,12 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-.custom-text {
-    font-size: 50px;
+.custom-text1 {
+    font-size: 20px;
     text-align: left;
     color: #fff; /* Text color for the custom text */
-   padding-left: 20px;
+   padding-left: 0px;
+    font-family: 'Nexa', sans-serif
 }
 .custom-text2 {
     font-size: 20px;
