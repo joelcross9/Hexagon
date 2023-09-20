@@ -61,14 +61,6 @@ font-family: 'Nexa', sans-serif;
     animation: gradient-animation 3s linear infinite;
 }
 
-.floating-shapes{position:absolute !important;top:0 !important;left:0 !important;margin:0 !important;padding:0 !important;background:#161616;overflow:hidden;z-index:-2 !important;width:100vw;height:calc(100% + 100px)}.floating-shapes .floating-left{position:absolute;bottom:100px;left:-350px;height:600px;width:1000px;margin-top:0;border-radius:100%;background:#DD3C5F;filter:blur(150px);opacity:0.35;animation-name:floating-left;animation-duration:10s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;animation-direction:alternate}@keyframes floating-left{from{transform:translate(0, 0px)}33%{transform:translate(300px, 200px)}66%{transform:translate(200px, -200px)}to{transform:translate(0, 0px)}}.floating-shapes .floating-right{position:absolute;top:-50px;right:-150px;height:500px;width:900px;margin-top:0;border-radius:100%;background:#FCBDD7;filter:blur(125px);opacity:0.35;animation-name:floating-right;animation-duration:10s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;animation-direction:alternate}@keyframes floating-right{from{transform:translate(0, 0px)}33%{transform:translate(200px, -200px)}66%{transform:translate(150px, 150px)}to{transform:translate(0, 0px)}}.stamp-animated{animation:rotating-stamp 60s linear infinite}@keyframes rotating-stamp{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-
-/* CSS to center the image on the right side */
-
-
-
-
-
 /* navbar styling */
 
 
@@ -179,7 +171,7 @@ font-family: 'Montserrat ExtraBold', sans-serif;
 }
 
 .hero p {
-  font-size: 3.5rem;
+  font-size: 24px;
   margin-bottom: 20px;
   color: #c9c7c7;
 font-family: 'Nexa', sans-serif; 
