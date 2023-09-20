@@ -45,9 +45,10 @@ body, html {
     
 }
 .custom-text2 {
-    font-size: 20px;
+    font-size: 100px;
 font-family: 'Nexa', sans-serif;
 }
+
 /* Apply the animation to the text */
 .animated-text {
     font-family: 'Montserrat ExtraBold', sans-serif;
@@ -282,7 +283,6 @@ section .title::after{
     font-size: 20px;
     text-align: left;
     color: #fff; /* Text color for the custom text */
-   padding-left: 0px;
     font-family: 'Nexa', sans-serif
 }
 
@@ -896,12 +896,7 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-    .home .home-content {
-        font-size: 60px;
-    }
-    .home .home-content {
-        font-size: 32px;
-    }
+  
     .home .home-content a{
         font-size: 20px;
     }
